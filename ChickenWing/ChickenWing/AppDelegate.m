@@ -10,10 +10,16 @@
 
 #import "ViewController.h"
 
+#import <Parse/Parse.h>
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [Parse setApplicationId:@"UP4Dy46JnS4X5e2g5jLxM9G2H5qJMS3CO2hSbukm"
+                  clientKey:@"QmjoL97MtV5T5ufx1wXXemxjeOFnvNEUbNEUMPIo"];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
@@ -23,6 +29,8 @@
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
     
     
