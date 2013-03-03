@@ -14,11 +14,13 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    _ParseStatus.text = @"HELLO!";
     //_ParseStatus.text = @"HELLO!";
 }
 
@@ -29,5 +31,6 @@
 }
 
 - (IBAction)ParseConnect:(id)sender {
+    _ParseStatus.text = @"YOU PRESSED A BUTTON!";
 }
 @end
