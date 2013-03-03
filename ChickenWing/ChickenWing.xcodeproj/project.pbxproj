@@ -467,6 +467,7 @@
 				B4F48CC216E3E4E600E9ACA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4F48CC316E3E4E600E9ACA5 /* Build configuration list for PBXNativeTarget "ChickenWingTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				B4F48CC516E3E4E600E9ACA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
