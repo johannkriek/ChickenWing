@@ -26,6 +26,7 @@
     [testObject setObject:@"bar" forKey:@"foo"];
     [testObject save];
     
+    _ParseStatus.text = @"HELLO!";
     //_ParseStatus.text = @"HELLO!";
 }
 
