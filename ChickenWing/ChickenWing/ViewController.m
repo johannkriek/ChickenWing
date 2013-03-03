@@ -15,6 +15,8 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -34,5 +36,6 @@
 }
 
 - (IBAction)ParseConnect:(id)sender {
+    _ParseStatus.text = @"YOU PRESSED A BUTTON!";
 }
 @end
