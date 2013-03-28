@@ -21,6 +21,10 @@
 		5960A14E16E3F4D200CF5A75 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5960A14116E3F4D200CF5A75 /* Social.framework */; };
 		5960A14F16E3F4D200CF5A75 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5960A14216E3F4D200CF5A75 /* StoreKit.framework */; };
 		5960A15016E3F4D200CF5A75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5960A14316E3F4D200CF5A75 /* SystemConfiguration.framework */; };
+		5996D08F1703FD8C0019802F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996D08E1703FD8C0019802F /* User.m */; };
+		5996D092170405A50019802F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996D091170405A50019802F /* Restaurant.m */; };
+		5996D0951704074B0019802F /* Special.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996D0941704074B0019802F /* Special.m */; };
+		5996D099170408E60019802F /* UserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996D098170408E60019802F /* UserController.m */; };
 		B4F48C8916E3E4E600E9ACA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F48C8816E3E4E600E9ACA5 /* UIKit.framework */; };
 		B4F48C8B16E3E4E600E9ACA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F48C8A16E3E4E600E9ACA5 /* Foundation.framework */; };
 		B4F48C8D16E3E4E600E9ACA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F48C8C16E3E4E600E9ACA5 /* CoreGraphics.framework */; };
@@ -65,6 +69,14 @@
 		5960A14116E3F4D200CF5A75 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		5960A14216E3F4D200CF5A75 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		5960A14316E3F4D200CF5A75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5996D08D1703FD8C0019802F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		5996D08E1703FD8C0019802F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		5996D090170405A50019802F /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		5996D091170405A50019802F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		5996D0931704074B0019802F /* Special.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Special.h; sourceTree = "<group>"; };
+		5996D0941704074B0019802F /* Special.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Special.m; sourceTree = "<group>"; };
+		5996D097170408E60019802F /* UserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserController.h; sourceTree = "<group>"; };
+		5996D098170408E60019802F /* UserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserController.m; sourceTree = "<group>"; };
 		B4F48C8516E3E4E600E9ACA5 /* ChickenWing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenWing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F48C8816E3E4E600E9ACA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4F48C8A16E3E4E600E9ACA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -128,6 +140,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5996D08C1703FB130019802F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5996D08D1703FD8C0019802F /* User.h */,
+				5996D08E1703FD8C0019802F /* User.m */,
+				5996D090170405A50019802F /* Restaurant.h */,
+				5996D091170405A50019802F /* Restaurant.m */,
+				5996D0931704074B0019802F /* Special.h */,
+				5996D0941704074B0019802F /* Special.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5996D096170408D30019802F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5996D097170408E60019802F /* UserController.h */,
+				5996D098170408E60019802F /* UserController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		B4F48C7C16E3E4E600E9ACA5 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +209,8 @@
 		B4F48C8E16E3E4E600E9ACA5 /* ChickenWing */ = {
 			isa = PBXGroup;
 			children = (
+				5996D096170408D30019802F /* Controllers */,
+				5996D08C1703FB130019802F /* Models */,
 				B4F48C9716E3E4E600E9ACA5 /* AppDelegate.h */,
 				B4F48C9816E3E4E600E9ACA5 /* AppDelegate.m */,
 				B4F48CA016E3E4E600E9ACA5 /* ViewController.h */,
@@ -333,6 +369,10 @@
 				B4F48C9516E3E4E600E9ACA5 /* main.m in Sources */,
 				B4F48C9916E3E4E600E9ACA5 /* AppDelegate.m in Sources */,
 				B4F48CA216E3E4E600E9ACA5 /* ViewController.m in Sources */,
+				5996D08F1703FD8C0019802F /* User.m in Sources */,
+				5996D092170405A50019802F /* Restaurant.m in Sources */,
+				5996D0951704074B0019802F /* Special.m in Sources */,
+				5996D099170408E60019802F /* UserController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
